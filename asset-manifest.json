@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EDENGATE/static/css/main.018f9f19.css",
+    "main.js": "/EDENGATE/static/js/main.c24b05c5.js",
+    "static/js/787.1f1e7731.chunk.js": "/EDENGATE/static/js/787.1f1e7731.chunk.js",
+    "index.html": "/EDENGATE/index.html",
+    "main.018f9f19.css.map": "/EDENGATE/static/css/main.018f9f19.css.map",
+    "main.c24b05c5.js.map": "/EDENGATE/static/js/main.c24b05c5.js.map",
+    "787.1f1e7731.chunk.js.map": "/EDENGATE/static/js/787.1f1e7731.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.018f9f19.css",
+    "static/js/main.c24b05c5.js"
+  ]
+}
