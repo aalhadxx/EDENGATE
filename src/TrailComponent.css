@@ -1,0 +1,74 @@
+/* TrailComponent.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+  
+  .trail-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .trail-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+ /* asdassa */
+
+ /* TrailComponent.css */
+
+/* Define the gradient */
+.custom-stroke {
+    stroke-width: 2;
+    stroke-dasharray: 2000; /* Length of the stroke */
+    stroke-dashoffset: 2000; /* Hide the stroke initially */
+  
+    /* Animation */
+    animation: rainbow 3s linear infinite; /* Change the duration (8s) for a slower animation */
+  
+    /* Other styling */
+    fill: none;
+    stroke-linecap: round; /* Round stroke ends */
+  }
+  
+  /* Define the animation */
+  @keyframes rainbow {
+    0% {
+      stroke: #ff0000; /* Red */
+      stroke-dashoffset: 2000; /* Hide the stroke initially */
+    }
+    16.67% {
+      stroke: #ff7f00; /* Orange */
+      stroke-dashoffset: 1500; /* Show a portion of the stroke */
+    }
+    33.33% {
+      stroke: #ffff00; /* Yellow */
+      stroke-dashoffset: 1000; /* Show more of the stroke */
+    }
+    50% {
+      stroke: #00ff00; /* Green */
+      stroke-dashoffset: 500; /* Show more of the stroke */
+    }
+    66.67% {
+      stroke: #0000ff; /* Blue */
+      stroke-dashoffset: 0; /* Show the entire stroke */
+    }
+    83.33% {
+      stroke: #4b0082; /* Indigo */
+      stroke-dashoffset: -500; /* Hide a portion of the stroke */
+    }
+    100% {
+      stroke: #9400d3; /* Violet */
+      stroke-dashoffset: -1000; /* Hide the entire stroke */
+    }
+  }
